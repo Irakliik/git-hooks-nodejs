@@ -14,10 +14,11 @@
     "husky": "^4.3.8"
   },
   "dependencies": {
-    "jest": "^30.4.2",
-    "pre-commit": "^2.0.0"
+    "jest": "^30.4.2"
   },
-  "pre-commit": [
-    "test"
-  ]
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
+  }
 }
