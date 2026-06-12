@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "lint": "eslint src/**",
-    "lint-init": "eslint --init"
+    "lint-init": "eslint --init",
+    "lint-fix": "eslint src/** --fix"
   },
   "keywords": [],
   "author": "",
